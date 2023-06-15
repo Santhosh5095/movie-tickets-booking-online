@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(49, 47, 46);
+        color:white;
+        padding: 10px;
+        border-bottom: 3px rgb(243, 192, 39) solid;
+    }
+    .left{
+        font-size: 30px;
+    }
+    .right{
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    .right a{
+        text-decoration: none;
+        color: white;
+    }
+    .right img{
+        height: 23px;
+    }
+    .header{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .header span{
+        margin-top: 8px;
+    }
+    .box{
+        margin-left: 20px;
+        margin-right: 20px;
+        box-sizing: border-box;
+        border: solid 2px rgb(12, 12, 3);
+        height: 16rem;
+        margin-top: 20px;
+    }
+    .box img{
+        width: 19.8rem;
+    }
+    .box h4{
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    .box h3{
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    .button1 button{
+        margin-top: 10px;
+        padding-left: 7.9rem;
+        padding-right: 7.9rem;
+        padding-top: 12px;
+        padding-bottom: 14px;
+        background-color: rgb(250, 204, 2);
+    }
+    .button1 button a{
+        color: black;
+        text-decoration: none;
+    }
+    .button button{
+        margin-top: 10px;
+        padding-left: 7.9rem;
+        padding-right: 7.9rem;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: rgb(250, 204, 2);
+    }
+    .button button a{
+        color: black;
+        text-decoration: none;
+    }
+    .img2 img{
+        height: 8.5rem;
+    }
+    .matter{
+        background-image: url(img/background.jpg);
+        height: 20rem;
+        margin-top: 4rem;
+    }
+    .matter ul{
+        margin-left: 40px;
+        padding-top: 4rem;
+    }
+    .matter ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .matter ul li a:hover{
+        color:red;
+    }
+}

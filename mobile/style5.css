@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(52, 25, 6);
+        color:white;
+        padding: 10px;
+        border-bottom: 3px rgb(243, 192, 39) solid;
+    }
+    .left{
+        font-size: 30px;
+    }
+    .right{
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    .right a{
+        text-decoration: none;
+        color: white;
+    }
+    .header{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .header h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .information h6{
+        line-height: 20px;
+        font-weight: none;
+        font-size: 13px;
+
+    }
+    .matter{
+        background-image: url(img/background.jpg);
+        height: 20rem;
+        margin-top: 4rem;
+    }
+    .matter ul{
+        margin-left: 40px;
+        padding-top: 4rem;
+    }
+    .matter ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .matter ul li a:hover{
+        color:red;
+    }
+}
